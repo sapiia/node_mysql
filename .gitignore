@@ -1,1 +1,34 @@
+# dependencies
 node_modules/
+
+# environment variables (IMPORTANT for security)
+.env
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor files
+.vscode/
+.idea/
+
+# build / output
+dist/
+build/
+
+# temporary files
+tmp/
+temp/
+
+# database backups (optional)
+*.sql
+
+# coverage (testing)
+coverage/
